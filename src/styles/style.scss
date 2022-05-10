@@ -1,0 +1,83 @@
+@import '~bulma/bulma.sass';
+
+@font-face {
+  font-family: 'PressStart2P' ;
+  src: url('PressStart2P.ttf');
+}
+
+html,a, h1, form, input, button, p, select, table {
+  color:black;
+  font-family: 'PressStart2P';
+}
+
+table {
+  font-size: 0.5rem;
+}
+
+.big-butt {
+  width: 250px;
+  margin: 10px;
+}
+
+input {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+figure {
+  max-width: 300px;
+  margin: 0 auto;
+  
+}
+
+body {
+  box-sizing: border-box;
+  margin: 40 auto;
+}
+
+.logo-bubble {
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  
+}
+
+.landing {
+  width: 330px;
+  margin: 0 auto;
+  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reg-container {
+  width: 330px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.reg {
+  padding: 0px;
+  width: 330px;
+  margin: 0 auto;
+  
+}
+
+.spacer {
+  margin-top: 12px;
+}
+
+.user-balance {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 20px;
+}
+
+.nes-select {
+  margin: 10px 0px 20px 0px;
+}
