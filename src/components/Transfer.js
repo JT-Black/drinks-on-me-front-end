@@ -8,8 +8,6 @@ import { getUsers, transfer, getUserById } from '../api/helpers';
 
 const Transfer = () => {
   // const [play] = useSound(coin);
-  // const navigate = useNavigate();
-
   const [currentUser, setCurrentUser] = useState({});
 
   React.useEffect(() => {
@@ -39,6 +37,8 @@ const Transfer = () => {
     };
     getAllUsers();
   }, []);
+
+  
 
   const handleMsgChange = (e) => {
     setTransferMsg(e.target.value);
